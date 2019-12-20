@@ -1,0 +1,4 @@
+com\oauth2\resources\config\LogoutSuccessHandlerImpl.class
+com\oauth2\resources\ResourceServerApplication.class
+com\oauth2\resources\controller\TestController.class
+com\oauth2\resources\config\ResourcesServerConfig.class

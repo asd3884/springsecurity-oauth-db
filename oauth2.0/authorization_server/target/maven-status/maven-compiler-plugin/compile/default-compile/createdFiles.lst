@@ -1,0 +1,7 @@
+com\oauth2\authorization\config\WebSecurityConfig.class
+com\oauth2\authorization\userdetails\CredentialsDao.class
+com\oauth2\authorization\userdetails\JdbcUserDetails.class
+com\oauth2\authorization\config\AuthorizationServerConfig.class
+com\oauth2\authorization\userdetails\Authority.class
+com\oauth2\authorization\userdetails\Credentials.class
+com\oauth2\authorization\AuthorizationServerApplication.class
