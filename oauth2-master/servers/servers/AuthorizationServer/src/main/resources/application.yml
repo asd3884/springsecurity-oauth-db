@@ -1,0 +1,23 @@
+spring:
+    datasource:
+        hikari:
+            connection-test-query: SELECT 1 FROM DUAL
+            minimum-idle: 1
+            maximum-pool-size: 5
+        driver-class-name: com.mysql.jdbc.Driver
+        jdbc-url: jdbc:mysql://127.0.0.1:3306/spring_oauth2?useUnicode=true&characterEncoding=utf8
+        username: root
+        password: asd3884
+        initialization-mode: always
+    jpa:
+      hibernate:
+        ddl-auto: none
+# --- server
+server:
+  port: 8080
+  contextPath: /auth_server
+security:
+  oauth2:
+    authorization:
+      check-token-access: true
+
