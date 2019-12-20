@@ -19,7 +19,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
-        <security-oauth2.version>2.3.5.RELEASE</security-oauth2.version>
+        <security-oauth2.version>2.3.6.RELEASE</security-oauth2.version>
         <mybatis.version>1.3.2</mybatis.version>
     </properties>
 
