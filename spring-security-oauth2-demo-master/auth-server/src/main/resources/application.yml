@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /auth
+spring:
+  jpa:
+    database: MYSQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    hikari:
+      connection-test-query: SELECT 1
+      minimum-idle: 1
+      maximum-pool-size: 5
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/auth?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: asd3884
+
+spring.jpa.properties.hibernate.temp.use_jdbc_metadata_defaults: false
+logging.level.org.springframework: debug

@@ -1,0 +1,20 @@
+auth-server:
+  client:
+    clientId: client
+    clientSecret: client
+    accessTokenUri: http://127.0.0.1:8080/auth/oauth/token
+    userAuthorizationUri: http://127.0.0.1:8080/auth/oauth/authorize
+    tokenName: access_token
+    authenticationScheme: query
+    clientAuthenticationScheme: form
+  resource:
+    userInfoUri: http://127.0.0.1:8080/auth/sysUsers/user
+
+server:
+  port: 8081
+
+  servlet:
+    session:
+      cookie:
+        name: OAUTH2SESSION
+logging.level.org.springframework: debug
